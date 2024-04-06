@@ -1,0 +1,20 @@
+#paneBack {
+	-fx-background-color: #D89D04;
+}
+.goButton {
+	-fx-background-color: #101010;
+	-fx-text-fill: #E7E7E7;
+	-fx-font-family: "Mosk Bold 700";
+}
+.textLabel {
+	-fx-background-color: #101010;
+	-fx-text-fill: #E7E7E7;
+	-fx-font-family: "Mosk Bold 700";
+}
+.text {
+	-fx-text-fill: #101010;
+	-fx-font-family: "Mosk Ultra-Bold 900"
+}
+#loginedText {
+	-fx-alignment: center;
+}

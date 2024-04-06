@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="paneBack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" stylesheets="@../../view/BlackTheme.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.loginsystem.Controller_LoginedScene">
+   <children>
+      <Label id="loginedText" fx:id="userText" layoutY="77.0" prefHeight="46.0" prefWidth="300.0" styleClass="text" stylesheets="@../../view/BlackTheme.css" text="Hello! Someting" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria" size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="234.0" layoutY="164.0" mnemonicParsing="false" onAction="#backMenu" styleClass="goButton" stylesheets="@../../view/BlackTheme.css" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
